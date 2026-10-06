@@ -1,0 +1,576 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <!-- Primary SEO Metadata -->
+  <title>HERANYA SHAH — CSE Student × Creative | Portfolio</title>
+  <meta name="title" content="HERANYA SHAH — CSE Student × Creative | Portfolio" />
+  <meta name="description" content="Portfolio of HERANYA SHAH, a Computer Science Engineering student exploring technology, coding, cinematography, and creative storytelling." />
+  <meta name="keywords" content="Heranya Shah, Computer Science, CSE, Cinematography, Developer Portfolio, Photography, Video Editing, AI & DL" />
+  <meta name="author" content="Heranya Shah" />
+  <meta name="theme-color" content="#09090b" />
+
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://github.com/heranya04" />
+  <meta property="og:title" content="HERANYA SHAH — CSE Student × Creative" />
+  <meta property="og:description" content="Exploring the intersection of technology, code, cinematography, and visual storytelling." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:title" content="HERANYA SHAH — CSE Student × Creative" />
+  <meta property="twitter:description" content="First-year CSE student exploring technology, coding, cinematography, and visual storytelling." />
+  <meta property="twitter:image" content="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80" />
+
+  <!-- Google Fonts Preconnect & Load (Syne, Space Grotesk, Plus Jakarta Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2309090b'/%3E%3Ctext x='16' y='22' font-family='sans-serif' font-size='16' font-weight='bold' fill='%23e58249' text-anchor='middle'%3EH%3C/text%3E%3C/svg%3E" />
+
+  <!-- Application Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Film Grain Overlay & Ambient Atmosphere -->
+  <div class="film-grain" aria-hidden="true"></div>
+  <div class="ambient-glow" aria-hidden="true"></div>
+
+  <!-- =========================================================================
+       NAVIGATION BAR
+       ========================================================================= -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-logo interactive" aria-label="Heranya Shah Portfolio Home">
+        <span id="nav-brand-name">HERANYA AI &amp; DL</span>
+        <span class="nav-logo-badge">CSE '29</span>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link interactive">About</a></li>
+          <li><a href="#projects" class="nav-link interactive">Projects</a></li>
+          <li><a href="#creative" class="nav-link interactive">Creative</a></li>
+          <li><a href="#skills" class="nav-link interactive">Skills</a></li>
+          <li><a href="#timeline" class="nav-link interactive">Journey</a></li>
+          <li><a href="#contact" class="nav-link interactive">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a href="#contact" class="nav-cta interactive">LET'S CONNECT ↗</a>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle Navigation Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+    <ul class="mobile-drawer-links">
+      <li><a href="#hero" class="mobile-nav-link">Home</a></li>
+      <li><a href="#about" class="mobile-nav-link">About</a></li>
+      <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+      <li><a href="#creative" class="mobile-nav-link">Creative Portfolio</a></li>
+      <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+      <li><a href="#timeline" class="mobile-nav-link">Learning Curve</a></li>
+      <li><a href="#experience" class="mobile-nav-link">Experience</a></li>
+      <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+    </ul>
+    <div class="mobile-drawer-footer">
+      <p>HERANYA SHAH</p>
+      <p style="color: var(--accent); margin-top: 0.25rem;">CODE × CINEMA</p>
+    </div>
+  </div>
+
+  <main id="main-content">
+    <!-- =========================================================================
+         SECTION 2: HERO SECTION
+         ========================================================================= -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-grid">
+        <!-- Left Column: Typography & CTAs -->
+        <div class="hero-content">
+          <div class="hero-identity-tag" id="hero-identity-tag">HERANYA SHAH</div>
+          <h1 class="hero-headline" id="hero-headline">
+            CODE. CREATE. CAPTURE. <span class="accent-dot">.</span>
+          </h1>
+          <p class="hero-intro" id="hero-intro">
+            First-year Computer Science Engineering student exploring the intersection of technology, creativity, and visual storytelling.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary interactive">
+              Explore My Work <span>→</span>
+            </a>
+            <a href="#contact" class="btn btn-secondary interactive">
+              Let's Connect <span>↗</span>
+            </a>
+          </div>
+
+          <div class="hero-meta">
+            <span class="hero-badge-pill" id="hero-role-badge">CSE STUDENT / CREATIVE / BUILDER</span>
+          </div>
+        </div>
+
+        <!-- Right Column: Cinematic Visual Frame -->
+        <div class="hero-visual-container">
+          <div class="hero-film-frame" data-cursor="view">
+            <!-- Framing Crosshairs -->
+            <div class="film-frame-crosshair crosshair-tl"></div>
+            <div class="film-frame-crosshair crosshair-tr"></div>
+            <div class="film-frame-crosshair crosshair-bl"></div>
+            <div class="film-frame-crosshair crosshair-br"></div>
+
+            <!-- Top Film Overlay -->
+            <div class="film-overlay-top">
+              <span id="hero-film-label"><span class="film-rec-dot"></span>REC ● 24 FPS</span>
+              <span id="hero-film-aspect">2.39 : 1 SCOPE</span>
+            </div>
+
+            <!-- Cinematic Visual Image -->
+            <img 
+              id="hero-img" 
+              src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=85" 
+              alt="Cinematic abstract composition representing technology and visual optics" 
+              class="hero-film-image" 
+            />
+
+            <!-- Bottom Film Overlay -->
+            <div class="film-overlay-bottom">
+              <span id="hero-film-focal">35MM T1.5</span>
+              <span>ISO 400</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Scroll Prompt -->
+      <a href="#about" class="hero-scroll-prompt interactive" aria-label="Scroll to Explore">
+        <span>SCROLL TO EXPLORE</span>
+        <span class="scroll-indicator-arrow">↓</span>
+      </a>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 5: ABOUT ME
+         ========================================================================= -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-tag">EDITORIAL PROFILE</div>
+        <h2 class="section-title">A LITTLE ABOUT ME.</h2>
+
+        <div class="about-grid">
+          <!-- Portrait & Media Column -->
+          <div class="about-portrait-card fade-up">
+            <div class="portrait-wrapper" data-cursor="view">
+              <img 
+                id="about-portrait-img" 
+                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1200&q=85" 
+                alt="Heranya Shah portrait placeholder" 
+                class="portrait-img" 
+                loading="lazy"
+              />
+            </div>
+            <div class="portrait-caption" id="about-portrait-caption">
+              <span>Heranya Shah — Frameworks &amp; Frame Rates</span>
+              <span>[35MM]</span>
+            </div>
+          </div>
+
+          <!-- Editorial Narrative & Currently Splits -->
+          <div class="about-narrative fade-up">
+            <blockquote class="about-statement" id="about-statement">
+              “I'm a first-year CSE student learning to build with code while exploring the world through a camera.”
+            </blockquote>
+
+            <div class="about-bio-text" id="about-bio">
+              <!-- Dynamically populated from config.js -->
+            </div>
+
+            <!-- "Currently" Dual Column Box -->
+            <div class="currently-container">
+              <div>
+                <h3 class="currently-col-title">Currently Learning</h3>
+                <ul class="currently-list" id="currently-learning-list">
+                  <!-- Populated from config.js -->
+                </ul>
+              </div>
+
+              <div>
+                <h3 class="currently-col-title">Currently Exploring</h3>
+                <ul class="currently-list" id="currently-exploring-list">
+                  <!-- Populated from config.js -->
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 6: PERSONALITY & PHILOSOPHY
+         ========================================================================= -->
+    <section class="philosophy-section" id="philosophy">
+      <div class="container">
+        <div class="philosophy-inner fade-up">
+          <div class="section-tag" style="justify-content: center;">CORE PRINCIPLE</div>
+          <h2 class="philosophy-quote" id="philosophy-statement">
+            I LIKE BUILDING THINGS<br />AND TELLING STORIES.
+          </h2>
+          <p class="philosophy-subtext" id="philosophy-subtext">
+            Most people view computing and cinematography as distinct disciplines. I see them as complementary instruments. Code creates structure, logic, and interactivity; cinema evokes emotion, pacing, and human perspective.
+          </p>
+        </div>
+      </div>
+
+      <!-- Rotating Marquee Track -->
+      <div class="marquee-container" aria-hidden="true">
+        <div class="marquee-track" id="marquee-track">
+          <!-- Marquee populated from config.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 7: SELECTED PROJECTS
+         ========================================================================= -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-tag">ENGINEERING LAB</div>
+        <h2 class="section-title">SELECTED PROJECTS</h2>
+        <p class="section-subtitle">
+          Foundational code, algorithmic experiments, and web experiences crafted during my undergraduate studies.
+        </p>
+
+        <!-- Dynamic Projects Container -->
+        <div class="projects-grid" id="projects-container">
+          <!-- Populated from config.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 8: CREATIVE PORTFOLIO (BEYOND CODE)
+         ========================================================================= -->
+    <section class="section" id="creative">
+      <div class="container">
+        <div class="creative-header">
+          <div>
+            <div class="section-tag">VISUAL STORYTELLING</div>
+            <h2 class="section-title">BEYOND CODE.</h2>
+            <p class="section-subtitle">
+              Photography stills, cinematography exercises, color grading studies, and aesthetic visual experiments.
+            </p>
+          </div>
+
+          <!-- Category Filter Tabs -->
+          <div class="filter-tabs" id="filter-tabs" role="tablist">
+            <button class="filter-tab active interactive" data-filter="ALL" role="tab">ALL</button>
+            <button class="filter-tab interactive" data-filter="PHOTO" role="tab">PHOTO</button>
+            <button class="filter-tab interactive" data-filter="VIDEO" role="tab">VIDEO</button>
+            <button class="filter-tab interactive" data-filter="EDIT" role="tab">EDIT</button>
+            <button class="filter-tab interactive" data-filter="EXPERIMENTS" role="tab">EXPERIMENTS</button>
+          </div>
+        </div>
+
+        <!-- Asymmetric Editorial Grid -->
+        <div class="creative-grid" id="creative-grid">
+          <!-- Populated from config.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 9: SKILLS MATRIX
+         ========================================================================= -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-tag">CAPABILITIES &amp; PROFICIENCIES</div>
+        <h2 class="section-title">SKILLS &amp; DISCIPLINES</h2>
+        <p class="section-subtitle">
+          An honest reflection of current proficiencies and active learning curves. No arbitrary percentage bars—only real technical and creative foundations.
+        </p>
+
+        <div class="skills-wrapper">
+          <!-- TECH Column -->
+          <div class="skills-column fade-up">
+            <div class="skills-col-header">
+              <h3 class="skills-col-title">TECH</h3>
+              <span class="skills-col-badge">COMPUTATION &amp; CODE</span>
+            </div>
+            <div class="skills-grid" id="tech-skills-grid">
+              <!-- Populated from config.js -->
+            </div>
+          </div>
+
+          <!-- CREATIVE Column -->
+          <div class="skills-column fade-up">
+            <div class="skills-col-header">
+              <h3 class="skills-col-title">CREATIVE</h3>
+              <span class="skills-col-badge">OPTICS &amp; DIRECTION</span>
+            </div>
+            <div class="skills-grid" id="creative-skills-grid">
+              <!-- Populated from config.js -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 10: THE LEARNING CURVE (TIMELINE)
+         ========================================================================= -->
+    <section class="section" id="timeline">
+      <div class="container">
+        <div class="section-tag">ACADEMIC &amp; DEVELOPMENTAL ROADMAP</div>
+        <h2 class="section-title">THE LEARNING CURVE</h2>
+        <p class="section-subtitle">
+          Milestones from the commencement of my BTech journey to forward-looking aspirations in software engineering and creative production.
+        </p>
+
+        <div class="timeline-container">
+          <div class="timeline-line"></div>
+          <div id="timeline-list">
+            <!-- Populated from config.js -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 11: EXPERIENCE & ACHIEVEMENTS
+         ========================================================================= -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-tag">CAMPUS INVOLVEMENT &amp; HONEST GROWTH</div>
+        <h2 class="section-title">EXPERIENCE &amp; ACHIEVEMENTS</h2>
+
+        <div class="experience-banner fade-up">
+          <div class="experience-callout">
+            <div class="status-indicator-dot"></div>
+            <h3 class="experience-status-heading" id="experience-status-heading">Currently building experience.</h3>
+          </div>
+          <p class="experience-subtext" id="experience-subtext">
+            As a first-year undergraduate, I prioritize authentic learning, continuous technical practice, and peer collaboration.
+          </p>
+
+          <div class="experience-grid" id="experience-grid">
+            <!-- Populated from config.js -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 12: CURRENTLY OBSESSED WITH (PERSONAL TOUCH)
+         ========================================================================= -->
+    <section class="section" id="obsessions">
+      <div class="container">
+        <div class="section-tag">INSPIRATIONS &amp; FIXATIONS</div>
+        <h2 class="section-title">CURRENTLY OBSESSED WITH</h2>
+        <p class="section-subtitle">
+          The curiosities, sonic frequencies, cinema frames, and tools shaping my worldview right now.
+        </p>
+
+        <div class="obsessed-grid" id="obsessed-grid">
+          <!-- Populated from config.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 13: CONTACT SECTION
+         ========================================================================= -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-tag">INITIATE DIALOGUE</div>
+        <h2 class="section-title">LET'S BUILD SOMETHING.</h2>
+        <p class="section-subtitle">
+          Whether it's an engineering project, creative collaboration, video production idea, or simply a conversation—I'd love to hear from you.
+        </p>
+
+        <div class="contact-grid">
+          <!-- Direct Links Column -->
+          <div class="contact-info-col fade-up">
+            <div>
+              <h3 style="font-family: var(--font-display); font-size: 1.5rem; color: var(--text-primary); margin-bottom: 0.5rem;">
+                Direct Channels
+              </h3>
+              <p style="color: var(--text-secondary); font-size: 0.95rem;">
+                Reach out across your preferred platform. Responses typically arrive within 24 hours.
+              </p>
+
+              <div class="contact-direct-links">
+                <a href="#" id="contact-direct-email" class="direct-link-card interactive" aria-label="Email Heranya Shah">
+                  <div class="link-label-group">
+                    <span class="link-type">Email</span>
+                    <span class="link-value">heranya.26bcon1957@jecrcu.edu.in</span>
+                  </div>
+                  <span class="link-arrow">↗</span>
+                </a>
+
+                <a href="#" id="contact-direct-github" target="_blank" rel="noopener" class="direct-link-card interactive" aria-label="GitHub Profile">
+                  <div class="link-label-group">
+                    <span class="link-type">GitHub</span>
+                    <span class="link-value">heranya04</span>
+                  </div>
+                  <span class="link-arrow">↗</span>
+                </a>
+
+                <a href="#" id="contact-direct-linkedin" target="_blank" rel="noopener" class="direct-link-card interactive" aria-label="LinkedIn Profile">
+                  <div class="link-label-group">
+                    <span class="link-type">LinkedIn</span>
+                    <span class="link-value">Heranya Shah</span>
+                  </div>
+                  <span class="link-arrow">↗</span>
+                </a>
+
+                <a href="#" id="contact-direct-instagram" target="_blank" rel="noopener" class="direct-link-card interactive" aria-label="Instagram Profile">
+                  <div class="link-label-group">
+                    <span class="link-type">Instagram</span>
+                    <span class="link-value">heranyaa_</span>
+                  </div>
+                  <span class="link-arrow">↗</span>
+                </a>
+              </div>
+            </div>
+
+            <div style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--text-muted); border-top: 1px solid var(--border-subtle); padding-top: 1.25rem;">
+              <span>LOCATED IN JAIPUR, INDIA</span> • <span>IST (UTC +5:30)</span>
+            </div>
+          </div>
+
+          <!-- Contact Form Column -->
+          <div class="contact-form-card fade-up">
+            <div id="form-feedback" class="form-feedback-banner" role="alert"></div>
+
+            <form id="contact-form" novalidate>
+              <div class="form-group">
+                <label for="form-name" class="form-label">Your Name</label>
+                <input 
+                  type="text" 
+                  id="form-name" 
+                  class="form-input interactive" 
+                  placeholder="e.g. Alex Vance" 
+                  required 
+                />
+                <span class="form-error-msg">Please provide your name.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="form-email" class="form-label">Email Address</label>
+                <input 
+                  type="email" 
+                  id="form-email" 
+                  class="form-input interactive" 
+                  placeholder="e.g. alex@studio.design" 
+                  required 
+                />
+                <span class="form-error-msg">Please enter a valid email address.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="form-message" class="form-label">Message / Project Inquiry</label>
+                <textarea 
+                  id="form-message" 
+                  class="form-textarea interactive" 
+                  placeholder="Tell me about your project, idea, or collaboration..." 
+                  required
+                ></textarea>
+                <span class="form-error-msg">Please enter your message (at least 10 characters).</span>
+              </div>
+
+              <button type="submit" class="btn btn-primary interactive" style="width: 100%;">
+                GET IN TOUCH ↗
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       SECTION 14: FOOTER
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-top">
+        <div>
+          <h3 class="footer-brand" id="footer-brand-name">HERANYA SHAH</h3>
+          <p class="footer-tagline">CSE × CREATIVITY</p>
+        </div>
+
+        <div class="footer-socials">
+          <a href="#" id="footer-github" target="_blank" rel="noopener" class="footer-social-link interactive">GitHub</a>
+          <span style="color: var(--border-medium);">·</span>
+          <a href="#" id="footer-linkedin" target="_blank" rel="noopener" class="footer-social-link interactive">LinkedIn</a>
+          <span style="color: var(--border-medium);">·</span>
+          <a href="#" id="footer-instagram" target="_blank" rel="noopener" class="footer-social-link interactive">Instagram</a>
+          <span style="color: var(--border-medium);">·</span>
+          <a href="#" id="footer-email" class="footer-social-link interactive">Email</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © <span id="footer-year">2026</span> <span id="footer-name-copy">HERANYA SHAH</span>. All rights reserved.
+        </div>
+        <div class="footer-built-note">
+          "Built with curiosity."
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       CREATIVE PORTFOLIO LIGHTBOX MODAL
+       ========================================================================= -->
+  <div class="lightbox-modal" id="lightbox-modal" role="dialog" aria-modal="true" aria-label="Creative Work Preview" tabindex="-1">
+    <button class="lightbox-close-btn interactive" id="lightbox-close" aria-label="Close Preview">✕</button>
+    <button class="lightbox-nav-btn lightbox-prev interactive" id="lightbox-prev" aria-label="Previous Item">‹</button>
+    <button class="lightbox-nav-btn lightbox-next interactive" id="lightbox-next" aria-label="Next Item">›</button>
+
+    <div class="lightbox-content">
+      <div class="lightbox-media">
+        <img id="lightbox-img" src="" alt="" class="lightbox-img" />
+      </div>
+      <div class="lightbox-sidebar">
+        <div>
+          <span class="creative-item-meta" id="lightbox-category">PHOTO</span>
+          <h3 class="creative-item-title" id="lightbox-title" style="font-size: 1.6rem; margin-bottom: 0.5rem;">Title</h3>
+          <p id="lightbox-medium" style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent); margin-bottom: 0.25rem;">Medium</p>
+          <p id="lightbox-gear" style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); margin-bottom: 1.5rem;">// Gear</p>
+          <p id="lightbox-desc" style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.7;">Description</p>
+        </div>
+        <div style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-muted); border-top: 1px solid var(--border-subtle); padding-top: 1rem; margin-top: 1.5rem;">
+          PRESS ESC TO CLOSE • ARROW KEYS TO NAVIGATE
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/config.js"></script>
+  <script src="js/cursor.js"></script>
+  <script src="js/lightbox.js"></script>
+  <script src="js/contact.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+
+
